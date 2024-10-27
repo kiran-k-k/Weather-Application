@@ -125,3 +125,40 @@ body{
         margin-top: 0px;
     }
 }
+
+
+@media(max-width: 574px){
+    .search button {
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+    }
+    .card{
+        width: 98%;
+        max-width: 470px;
+        background: linear-gradient(146deg, #efcdd8, #46746d);
+        color: #fff;
+        margin: 70px auto 0;
+        border-radius: 20px;
+        padding: 20px 5px ;
+        text-align: center;
+    }
+    .search{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .col img {
+        width: 30px;
+        margin-right: 10px;
+    }
+    .humidity, .wind {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+}
